@@ -1,11 +1,11 @@
 {
   "name": "mobile-components",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Minimal mobile react components built on top of antd.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/mobile-components",
+  "repository": "https://github.com/phr0/mobile-components",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -49,7 +49,14 @@
   "engines": {
     "node": ">=8.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^12.12.24",
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "antd": "^4.1.3",
+    "react": "^16.13.1",
+    "styled-components": "^5.1.0"
+  },
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
     "@bitjson/typedoc": "^0.15.0-0",
