@@ -38,7 +38,7 @@ export function MobileLayout(props: {
     "top" | "bottom" | "middle"
   >("top");
   const mainSection = React.useRef<HTMLDivElement>(null);
-  function onMainSectionScroll(event: React.UIEvent<HTMLDivElement>) {
+  function onMainSectionScroll() {
     if (!mainSection.current) { return; }
     const scrollTop = mainSection.current.scrollTop;
     if (scrollTop === 0) { setScrollPosition("top"); }

@@ -1,4 +1,5 @@
 import { PageHeader } from "antd";
+import React from "react";
 
 export function MobileTitleHeader(props: {
     title: React.ReactNode;
